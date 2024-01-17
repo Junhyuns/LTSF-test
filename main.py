@@ -72,6 +72,7 @@ if args.use_gpu and args.use_multi_gpu:
     args.gpu = args.device_ids[0]
 
 print("Arguments in simulation:", args)
+print()
 
 Explorer = exp_base(args)
 
