@@ -16,6 +16,8 @@ limitations under the License.
 
 """
 
+# TODO: Add SegRNN, PatchMixer model
+# TODO: Add inference code for service
 
 import torch
 import argparse
