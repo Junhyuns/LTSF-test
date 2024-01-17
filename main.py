@@ -75,5 +75,7 @@ print("Arguments in simulation:", args)
 
 Explorer = exp_base(args)
 
-if not args.only_test: #!#
+if not args.only_test:
     Explorer.train()
+
+torch.cuda.empty_cache()
